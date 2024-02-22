@@ -1,0 +1,9 @@
+public class ClosedState implements AccountState{
+    public void switchState(AccountController controller){
+        controller.setState(new ActivatedState());
+    }
+
+    public String getColor(){
+        return "Closed";
+    }
+}
