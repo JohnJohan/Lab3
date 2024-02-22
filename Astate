@@ -1,0 +1,9 @@
+public class ActivateState implements AccountState{
+    public void switchState(AccountController controller){
+        controller.setState(new SuspendedState());
+    }
+
+    public String getColor(){
+        return "Activated";
+    }
+}
