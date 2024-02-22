@@ -1,0 +1,14 @@
+public class Account{
+
+private String withdraw;
+private String deposit;
+
+public Demo (String withdraw, String deposit){
+this.withdraw = withdraw;
+this.deposit = deposit;
+
+public String roleStrategy(){ [0]strategyType
+return " Your action is " + roleAction + "\n" +
+strategyType.roleStrategy();
+      }
+  }
