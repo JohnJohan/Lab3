@@ -1,16 +1,16 @@
-public class TrafficLightDemo{
+public class AccountDemo{
     public static void main(String[] args){
         
-        TrafficLightController controller = new TrafficLightController();
-        System.out.println(controller.getState().getColor());
+        AccountController controller = new AccountController();
+        System.out.println(controller.getState().getStateOfAcc());
 
-        controller.setState(new GreenState());
+        controller.setState(new ActivatedState());
         System.out.println("Transitioning to Green!");
-        System.out.println(controller.getState().getColor());
+        System.out.println(controller.getState().getStateOfAcc());
 
         controller.setState(new YellowState());
         System.out.println("Transitioning to Yellow!");
-        System.out.println(controller.getState().getColor());
+        System.out.println(controller.getState().getStateOfAcc());
 
 
     }
