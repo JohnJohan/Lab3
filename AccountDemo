@@ -3,6 +3,7 @@ public class AccountDemo{
 
         myAccount myAcc = new myAccount (withdraw:"100", deposit:"1000";
         System.out.print(myAcc.AccountState());
+        System.out.println(controller.getState().getStateOfAcc());
 
         AccountController controller = new AccountController();
         System.out.println(controller.getState().getStateOfAcc());
