@@ -3,7 +3,7 @@ public class SuspendedState implements AccountState{
         controller.setState(new ClosedState());
     }
 
-    public String getColor(){
+    public String getStateOfAcc(){
         return "Suspended";
     }
 }
