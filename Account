@@ -7,8 +7,7 @@ public Demo (String withdraw, String deposit){
 this.withdraw = withdraw;
 this.deposit = deposit;
 
- public void setState(Account state) {
-        this.state = state;
+
 
       }
   }
