@@ -7,8 +7,8 @@ public Demo (String withdraw, String deposit){
 this.withdraw = withdraw;
 this.deposit = deposit;
 
-public String roleStrategy(){ [0]strategyType
-return " Your action is " + roleAction + "\n" +
-strategyType.roleStrategy();
+ public void setState(Account state) {
+        this.state = state;
+
       }
   }
