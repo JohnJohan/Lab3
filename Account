@@ -3,7 +3,7 @@ public class Account{
 private Double withdraw;
 private Double deposit;
 
-public Demo (String withdraw, String deposit){
+public Demo (Double withdraw, Double deposit){
 this.withdraw = withdraw;
 this.deposit = deposit;
 
