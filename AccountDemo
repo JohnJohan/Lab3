@@ -1,17 +1,44 @@
 public class AccountDemo{
     public static void main(String[] args){
-        
+
+        myAccount myAcc = new myAccount (withdraw:"100", deposit:"1000";
+        System.out.print(myAcc.AccountState());
+
         AccountController controller = new AccountController();
         System.out.println(controller.getState().getStateOfAcc());
 
         controller.setState(new ActivatedState());
-        System.out.println("Transitioning to Green!");
+        System.out.println("Account is  already activated!");
         System.out.println(controller.getState().getStateOfAcc());
 
-        controller.setState(new YellowState());
-        System.out.println("Transitioning to Yellow!");
+        controller.setState(new ActivatedState());
+        System.out.println("Account is suspended!");
         System.out.println(controller.getState().getStateOfAcc());
 
+        controller.setState(new ActivatedState());
+        System.out.println("Account is closed!");
+        System.out.println(controller.getState().getStateOfAcc());
+
+        controller.setState(new SuspendedState());
+        System.out.println("Account is already suspended!");
+        System.out.println(controller.getState().getStateOfAcc());
+
+        controller.setState(new SuspendedState());
+        System.out.println("Account is activated!");
+        System.out.println(controller.getState().getStateOfAcc());
+
+        controller.setState(new SuspendedState());
+        System.out.println("Account is closed!");
+        System.out.println(controller.getState().getStateOfAcc());
+
+        controller.setState(new ClosedState());
+        System.out.println("Account is already Closed!");
+        System.out.println(controller.getState().getStateOfAcc());
+        System.out.println("Closed account cannot be opened!");
+        System.out.println("Closed account cannot be suspended!");
+
+
+        
 
     }
 }
