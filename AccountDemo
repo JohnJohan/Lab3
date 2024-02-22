@@ -20,6 +20,10 @@ public class AccountDemo{
         System.out.println("Account is closed!");
         System.out.println(controller.getState().getStateOfAcc());
 
+	myAccount myAcc = new myAccount (withdraw:"100", deposit:"1000";
+        System.out.print(myAcc.AccountState());
+        System.out.println(controller.getState().getStateOfAcc());
+		
         controller.setState(new SuspendedState());
         System.out.println("Account is already suspended!");
         System.out.println(controller.getState().getStateOfAcc());
@@ -30,6 +34,10 @@ public class AccountDemo{
 
         controller.setState(new SuspendedState());
         System.out.println("Account is closed!");
+        System.out.println(controller.getState().getStateOfAcc());
+
+	myAccount myAcc = new myAccount (withdraw:"100", deposit:"1000";
+        System.out.print(myAcc.AccountState());
         System.out.println(controller.getState().getStateOfAcc());
 
         controller.setState(new ClosedState());
