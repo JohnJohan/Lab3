@@ -34,9 +34,14 @@ public class AccountDemo{
         controller.setState(new ClosedState());
         System.out.println("Account is already Closed!");
         System.out.println(controller.getState().getStateOfAcc());
-        System.out.println("Closed account cannot be opened!");
-        System.out.println("Closed account cannot be suspended!");
 
+        controller.setState(new ClosedState());
+        System.out.println("Closed account cannot be opened!");
+        System.out.println(controller.getState().getStateOfAcc());
+
+        controller.setState(new ClosedState());
+        System.out.println("Closed account cannot be suspended!");
+        System.out.println(controller.getState().getStateOfAcc());
 
         
 
