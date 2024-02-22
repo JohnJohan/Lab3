@@ -1,16 +1,16 @@
-public class TrafficLightController{
-    private TrafficLightState state;
+public class AccountController {
+    private AccountState state;
 
     //default state
-    public TrafficLightController(){
-        state = new RedState();
+    public AccountController (){
+        state = new ClosedState();
     }
 
-    public TrafficLightState getState() {
+    public AccountState getState() {
         return state;
     }
 
-    public void setState(TrafficLightState state) {
+    public void setState(AccountState state) {
         this.state = state;
     }
 
