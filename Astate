@@ -3,7 +3,7 @@ public class ActivateState implements AccountState{
         controller.setState(new SuspendedState());
     }
 
-    public String getColor(){
+    public String getStateOfAcc(){
         return "Activated";
     }
 }
