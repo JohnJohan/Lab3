@@ -3,7 +3,7 @@ public class ClosedState implements AccountState{
         controller.setState(new ActivatedState());
     }
 
-    public String getColor(){
+    public String getStateOfAcc(){
         return "Closed";
     }
 }
