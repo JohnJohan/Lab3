@@ -1,4 +1,4 @@
 public interface AccountState{
     public void switchState(AccountController controller);
-    public String getState();
+    public String getStateOfAcc();
 }
