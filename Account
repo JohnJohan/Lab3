@@ -1,7 +1,7 @@
 public class Account{
 
-private String withdraw;
-private String deposit;
+private Double withdraw;
+private Double deposit;
 
 public Demo (String withdraw, String deposit){
 this.withdraw = withdraw;
